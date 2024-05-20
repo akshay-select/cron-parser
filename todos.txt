@@ -1,0 +1,27 @@
+
+How to approach this problem? 
+* Understand cron expression in detail! 
+* Come up with a UML diagram (with pros and cons)
+* Implement classes and methods
+* Handle exceptions, errors, logging
+* Learn testing in python + implement test classes
+* Check if the solution is extensible + try add new features and test... 
+* Refine solution
+* Update Readme and push code! 
+
+
+Todos
+ [*] Update parser util and handle edge cases
+ [*] Write unit tests for the utils and verify for working
+ [*] Integrate the parsers with Feilds and verify for working! 
+ [*] Write unit tests for Feild, Cron expression?
+ [ ] Custom exceptions and exception handling + logging
+ [ ] Is this extensible? why or why not?
+ [ ] Compare with other codebases! 
+ [ ] Through code review + fix issues, namings exception
+ [ ] Push code to github! 
+ 
+
+
+
+
