@@ -12,7 +12,7 @@ class TestCronExpression(unittest.TestCase):
             "day of month": [1],
             "month": [1],
             "day of week": [0,1,2,3,4,5,6],
-            "command": "/usr/bin/find"
+            "command": ["/usr/bin/find"]
         }
         self.assertEqual(parsed, expected)
 
@@ -36,7 +36,7 @@ class TestCronExpression(unittest.TestCase):
             "day of month": [31],
             "month": [12],
             "day of week": [6],
-            "command": "/usr/bin/find"
+            "command": ["/usr/bin/find"]
         }
         self.assertEqual(parsed, expected)
 
@@ -50,6 +50,6 @@ class TestCronExpression(unittest.TestCase):
             "day of month": [1],
             "month": [1],
             "day of week": [0],
-            "command": "/usr/bin/find"
+            "command": ["/usr/bin/find"]
         }
         self.assertEqual(parsed, expected)

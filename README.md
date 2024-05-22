@@ -29,11 +29,11 @@ Example:
 python3 main.py "22-30/30 1 2 1-3 1/2 command1"
 
 ---------------------------
-minute       | [22]
-hour         | [1]
-day of month | [2]
-month        | [1, 2, 3]
-day of week  | [1, 3, 5]
+minute       | 22
+hour         | 1
+day of month | 2
+month        | 1 2 3
+day of week  | 1 3 5
 command      | command1
 ---------------------------
 ```
@@ -45,7 +45,5 @@ python3 -m unittest discover -s tests
 ```
 
 ## Possible Improvements
-- Error handling can be improved to catch the invalid inputs and provide more details! 
-- Error handling can be improved to check for error messages. 
-- More tests to be added to cover wide range of scenarios...
-- Verify command? 
+- Error handling can be improved. 
+- More tests to be added to cover wide range of scenarios!
